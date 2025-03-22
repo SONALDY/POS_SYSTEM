@@ -62,10 +62,10 @@ namespace ClothingStore_Pos_system
         {
             try
             {
-                string ip = "SONALDY";
-                string dbName = "Pos_database";
-                string dbUser = "sa";
-                string dbPassword = "death";
+                string ip = "";
+                string dbName = "";
+                string dbUser = "";
+                string dbPassword = "";
                 DataConnection.ConnectionDB(ip, dbName, dbUser, dbPassword);
             }
             catch (Exception ex)
